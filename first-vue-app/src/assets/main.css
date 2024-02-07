@@ -7,18 +7,20 @@
   font-weight: normal;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(151, 0, 189) 0%,
+    hsla(295, 100%, 37%, 0.353) 100%
+  );
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 1024px) {

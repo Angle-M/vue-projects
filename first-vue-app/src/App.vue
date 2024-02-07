@@ -5,7 +5,7 @@ import { RouterView } from 'vue-router'
 <template>
   <header>
     <img alt="Simple Logo" class="logo" src="" width="125" height="125" />
-
+    <h1 class="homeTitle">Simple Blog</h1>
     <div class="wrapper">
 
       <nav>
@@ -13,14 +13,20 @@ import { RouterView } from 'vue-router'
       </nav>
     </div>
   </header>
-
   <RouterView />
 </template>
 
 <style scoped>
+.homeTitle {
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+  color: gradient;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
+  color: rgb(3, 3, 4)
 }
 
 .logo {
