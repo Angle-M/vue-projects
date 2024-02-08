@@ -15,8 +15,8 @@ h1 {
 body {
   background: linear-gradient(
     90deg,
-    rgb(151, 0, 189) 0%,
-    hsla(295, 100%, 37%, 0.353) 100%
+    rgb(214,139,255) 0%,
+    rgb(77,54,90) 100%
   );
   padding: 1rem;
   border-radius: 5px;

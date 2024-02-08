@@ -3,7 +3,7 @@ import MainContent from '@/components/MainContent.vue';
 </script>
 
 <template>
-  <main id="gradient">
+  <main>
       <MainContent />
   </main>
 </template>

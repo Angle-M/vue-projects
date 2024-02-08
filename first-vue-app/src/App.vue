@@ -5,12 +5,13 @@ import { RouterView } from 'vue-router'
 <template>
   <header>
     <img alt="Simple Logo" class="logo" src="" width="125" height="125" />
-    <h1 class="homeTitle">Simple Blog</h1>
-    <div class="wrapper">
-
-      <nav>
+    <nav>
+        <router-link to="/" exact>Home</router-link>
+        <router-link to="/about">About</router-link>
         <!--Add the RouterL ink component to the template -->
-      </nav>
+    </nav>
+    <div class="wrapper">
+      <h1 class="homeTitle">Simple Blog</h1>
     </div>
   </header>
   <RouterView />
@@ -18,11 +19,12 @@ import { RouterView } from 'vue-router'
 
 <style scoped>
 .homeTitle {
+  color: rgb(3, 3, 4);
   text-align: center;
   margin: 0;
-  font-size: 2rem;
-  color: gradient;
+  font-size: 3.6rem;
 }
+
 header {
   line-height: 1.5;
   max-height: 100vh;
