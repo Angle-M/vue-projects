@@ -8,7 +8,7 @@ import { RouterView } from 'vue-router'
     <nav>
         <router-link to="/" exact>Home</router-link>
         <router-link to="/about">About</router-link>
-        <!--Add the RouterL ink component to the template -->
+        <!--Add the RouterLink component to the template -->
     </nav>
     <div class="wrapper">
       <h1 class="homeTitle">Simple Blog</h1>
